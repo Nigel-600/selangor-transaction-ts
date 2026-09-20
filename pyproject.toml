@@ -1,0 +1,27 @@
+[project]
+name = "selangor-transaction-ts"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "lightgbm==4.6.0",
+    "matplotlib==3.10.1",
+    "matplotlib-inline==0.1.7",
+    "numpy==2.1.1",
+    "numpydoc==1.10.0",
+    "optuna==4.3.0",
+    "optuna-dashboard==0.20.0",
+    "pandas==2.2.3",
+    "plotly==6.4.0",
+    "scikit-base==0.13.1",
+    "scikit-learn==1.7.0",
+    "scipy==1.15.2",
+]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["selangor"]
