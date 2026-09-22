@@ -5,12 +5,6 @@ Selangor (2023–2024), investigating whether historical discount depth Granger-
 revenue at the store and drink level, once cross-sectional dependence from common
 regional/company-wide shocks is purged.
 
-The project combines:
-- **R**: data cleaning, panel construction, structural break analysis, Hsiao/Mundlak
-  heterogeneity tests, Maddala-Wu unit-root tests, Common Correlated Effects Mean Group
-  (CCEMG) estimation, and (corrected) panel Granger non-causality (HNC) tests.
-- **Python**: LightGBM models (full-stack and a CCEMG-residual hybrid-stack) tuned via
-  Optuna.
 
 ## Research problem
 
